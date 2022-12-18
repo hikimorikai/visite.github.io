@@ -5,11 +5,12 @@ body
   align-items: center;
   background: #000000;
   font-family: "ＭＳ Ｐゴシック";
+  height: 100%;
 
 }
 
 
-h1
+.h3
 {
   color: #D4D4D4;
   border: 1px solid;
@@ -28,7 +29,10 @@ p
 }
 
 
-
+h1
+{
+  color: #D4D4D4;
+}
 
 h1:hover
 {
@@ -46,4 +50,5 @@ marquee
 {
   color: #D4D4D4;
   text-align: center;
+  border: 1px solid;
 }
