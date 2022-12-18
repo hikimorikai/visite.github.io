@@ -3,13 +3,16 @@ body
   justify-content: center;
   text-align: center;
   align-items: center;
-  background: #1C1C1C;
+  background: #000000;
+  font-family: "ＭＳ Ｐゴシック";
+
 }
 
 
 h1
 {
-  color: #B80A41;
+  color: #D4D4D4;
+  border: 1px solid;
 }
 
 a
@@ -19,17 +22,28 @@ a
 
 p
 {
-  color: #1FFFE1;
-  font-size: 25px;
+  color: red;
+  font-size: 20px;
+  border: 1px solid;
 }
 
-img
-{
-  border-radius: 50px;
-}
+
 
 
 h1:hover
 {
   color: white;
+}
+
+img
+{
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+marquee
+{
+  color: #D4D4D4;
+  text-align: center;
 }
